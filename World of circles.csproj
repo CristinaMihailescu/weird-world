@@ -123,9 +123,13 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\ActionItem.cs" />
+    <Compile Include="Assets\Scripts\DialogueSystem.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactions.cs" />
+    <Compile Include="Assets\Scripts\Item.cs" />
     <Compile Include="Assets\Scripts\Npc.cs" />
+    <Compile Include="Assets\Scripts\Sign.cs" />
     <Compile Include="Assets\dpt_zippermouth\demo_scene\GUITest.cs" />
     <Compile Include="Assets\dpt_zippermouth\demo_scene\ObjectRotation.cs" />
   </ItemGroup>

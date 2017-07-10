@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Interactions : MonoBehaviour {
 
-    UnityEngine.AI.NavMeshAgent playerAgent;
+    NavMeshAgent playerAgent;
 
 	void Start () {
-        playerAgent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        playerAgent = GetComponent<NavMeshAgent>();
 	}
 
     void Update()
@@ -34,6 +35,7 @@ public class Interactions : MonoBehaviour {
             }
             else //move player
             {
+                playerAgent.stoppingDistance = 0f;
                 playerAgent.destination = iInfo.point;
             }
         }
