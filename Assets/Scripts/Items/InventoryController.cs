@@ -16,7 +16,7 @@ public class InventoryController : MonoBehaviour {
 
     void Update()
     {
-        if(Input.GetMouseButtonDown(1))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             playerWeaponController.EquipWeapon(axe);
         }

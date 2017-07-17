@@ -123,22 +123,25 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Scripts\ActionItem.cs" />
-    <Compile Include="Assets\Scripts\Axe.cs" />
     <Compile Include="Assets\Scripts\BaseStat.cs" />
     <Compile Include="Assets\Scripts\CharacterStat.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
-    <Compile Include="Assets\Scripts\IWeapon.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\IEnemy.cs" />
     <Compile Include="Assets\Scripts\Interactable.cs" />
     <Compile Include="Assets\Scripts\Interactions.cs" />
-    <Compile Include="Assets\Scripts\InventoryController.cs" />
-    <Compile Include="Assets\Scripts\InventoryItem.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
+    <Compile Include="Assets\Scripts\Items\ActionItem.cs" />
+    <Compile Include="Assets\Scripts\Items\Axe.cs" />
+    <Compile Include="Assets\Scripts\Items\IWeapon.cs" />
+    <Compile Include="Assets\Scripts\Items\InventoryController.cs" />
+    <Compile Include="Assets\Scripts\Items\InventoryItem.cs" />
+    <Compile Include="Assets\Scripts\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\Items\PickupItem.cs" />
+    <Compile Include="Assets\Scripts\Items\PlayerWeaponController.cs" />
     <Compile Include="Assets\Scripts\Npc.cs" />
-    <Compile Include="Assets\Scripts\PickupItem.cs" />
-    <Compile Include="Assets\Scripts\PlayerWeaponController.cs" />
     <Compile Include="Assets\Scripts\Sign.cs" />
     <Compile Include="Assets\Scripts\StatBonus.cs" />
+    <Compile Include="Assets\Scripts\Witch.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BrokenVector\FreeLowPolyPack\readme.txt" />

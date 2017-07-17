@@ -41,6 +41,14 @@ public class PlayerWeaponController : MonoBehaviour {
         }
     }
 
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            PerformWeaponAttack();
+        }
+    }
+
     public void PerformWeaponAttack()
     {
         equippedWeapon.PerformAttack();
