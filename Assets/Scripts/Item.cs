@@ -2,10 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item : Interactable {
+public class Item {
 
-    public override void interact()
+    public List<BaseStat> Stats { get; set; }
+    public string ObjectName { get; set; }
+
+    public Item(List<BaseStat> Stats, string ObjectName)
     {
-        Debug.Log("Interracting with item.");
+        this.Stats = Stats;
+        this.ObjectName = ObjectName;
     }
 }

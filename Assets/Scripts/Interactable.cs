@@ -13,7 +13,7 @@ public class Interactable : MonoBehaviour { //obiectul cu care vreau sa interact
     {
         hasInteracted = false;
         this.playerAgent = playerAgent; //playerul in sine
-        playerAgent.stoppingDistance = 3f;
+        playerAgent.stoppingDistance = 1.5f;
         playerAgent.destination = transform.position;
     }
 

@@ -27,7 +27,6 @@ public class Interactions : MonoBehaviour {
         if(Physics.Raycast(iRay, out iInfo, Mathf.Infinity)) //ce lovesc stochez in iInfo
         {
             GameObject iObject = iInfo.collider.gameObject; //the object that we hit with the raycast
-            //Debug.DrawRay(iInfo.point, iInfo.normal * 10, Color.red);
             //things like ground are not interactable
             if (iObject.tag == "Interactable Object")
             {
@@ -38,6 +37,7 @@ public class Interactions : MonoBehaviour {
                 playerAgent.stoppingDistance = 0f;
                 playerAgent.destination = iInfo.point;
             }
+            DialogueSystem.Instance.setInactive();
         }
     }
 }

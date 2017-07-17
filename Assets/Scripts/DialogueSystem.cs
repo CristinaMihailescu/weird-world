@@ -76,4 +76,9 @@ public class DialogueSystem : MonoBehaviour {
             continueButtonText.text = "Continue";
         }
     }
+
+    public void setInactive()
+    {
+        dialoguePanel.SetActive(false);
+    }
 }
